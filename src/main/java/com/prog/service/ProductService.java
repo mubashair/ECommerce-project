@@ -3,6 +3,7 @@ package com.prog.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.prog.model.Product;
@@ -16,6 +17,11 @@ public class ProductService {
 	public List<Product> getAllProducts() {
 		
 		return productRepo.findAll();
+	}
+
+	public Product getProductById(int id) {
+		
+		return productRepo.findById(id).orElse(null);
 	}
 	
 	

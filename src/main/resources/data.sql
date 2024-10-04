@@ -8,4 +8,5 @@ VALUES ('Tata Nexon', 'A compact SUV with excellent safety features and performa
        ('Mahindra Thar', 'A rugged off-road SUV with a powerful engine and modern amenities.', 'Mahindra', 1200000.00,
         'Cars', '2024-04-01', true, 30),
        ('Honda City', 'A premium sedan with a sleek design and advanced safety features.', 'Honda', 1100000.00, 'Cars',
+        '2024-05-01', true, 60),('Honda Civic', 'A premium sedan with a sleek design and advanced safety features.', 'Honda', 9000000.00, 'Cars',
         '2024-05-01', true, 60);
